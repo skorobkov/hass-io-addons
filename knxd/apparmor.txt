@@ -19,6 +19,7 @@ profile knxdaddon flags=(attach_disconnected,mediate_deleted) {
   /etc/cont-finish.d/** rwix,
   /run/{,**} rwk,
   /dev/tty rw,
+  /dev/ttyAMA0 rw,
 
   # Bashio
   /usr/lib/bashio/** ix,
@@ -47,5 +48,6 @@ profile knxdaddon flags=(attach_disconnected,mediate_deleted) {
     /bin/echo ix,
     /etc/passwd r,
     /dev/tty rw,
+    /dev/ttyAMA0 rw,
   }
 }
