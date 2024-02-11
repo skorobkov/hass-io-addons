@@ -3,7 +3,7 @@ name: KNXD daemon
 version: "0.4.7"
 slug: knxd
 description: KNXD daemon you can use to create a KNX/IP gateway via TPUART or USB bus adapters
-url: https://github.com/da-anda/hass-io-addons/tree/main/knxd
+url: https://github.com/skorobkov/hass-io-addons/tree/main/knxd
 arch:
   - armhf
   - armv7
